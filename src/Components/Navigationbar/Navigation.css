@@ -1,0 +1,45 @@
+.logo{
+    height: 155px;
+    width: 290px;
+}
+
+.navbar{
+    height: 15vh;
+}
+
+.lists{
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+    align-items: center;
+    color: white;
+    list-style: none;
+    margin-right: 45px;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.lists li:first-child{
+    margin-right: auto;
+}
+
+.lists:hover{
+    cursor: pointer;
+}
+
+.special-lists{
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.special-lists:hover{
+    font-weight: 600;
+    border: 2px solid white;
+}
